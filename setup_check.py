@@ -219,8 +219,11 @@ def check_civil3d_running() -> CheckResult:
         )
 
     prog_ids = [
-        "AeccXUiLand.AeccApplication.14.0",
-        "AeccXUiLand.AeccApplication.13.0",
+        "AeccXUiLand.AeccApplication.13.9",  # Civil 3D 2027  (TSG patch 2026-05-13)
+        "AeccXUiLand.AeccApplication.14.4",  # Civil 3D 2026
+        "AeccXUiLand.AeccApplication.13.7",  # Civil 3D 2025
+        "AeccXUiLand.AeccApplication.14.0",  # Civil 3D 2024
+        "AeccXUiLand.AeccApplication.13.0",  # Civil 3D 2023
         "AutoCAD.Application",
     ]
     for prog_id in prog_ids:
